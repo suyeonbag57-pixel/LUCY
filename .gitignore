@@ -1,0 +1,25 @@
+# 의존성
+node_modules
+
+# 빌드 결과물
+dist
+.gen-out
+*.tsbuildinfo
+
+# 로그
+*.log
+npm-debug.log*
+
+# 환경변수 / 비밀키 — 절대 커밋하지 않는다 (팀 규칙 9번)
+.env
+.env.local
+.env.*.local
+
+# 에디터 / OS / 로컬 도구 설정
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+Thumbs.db
+# 로컬 실행 설정 (머신마다 경로가 달라 커밋하지 않는다)
+.claude/
